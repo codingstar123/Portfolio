@@ -1,15 +1,23 @@
+$( () => {
 
-function contact () {
+    //======grabbing the buttons=======
+    const openBtn = $('#openContact');
+    const contact = $('#contact');
+    const closeBtn = $('#close');
 
-}
-
-$(() => {
-  console.log('hello world');
-
-  $('.contact').on("click", () => {
-      console.log('My email is : , My phone number is : ');//when the contact is clicked, window shows up and display a message.
-      contact();
-      // should be a window that pops up and text appear inside
-
-  })
+    //===Event Handler===
+    function openContact (){
+      contact.css('display','block')
+    };
+    function closeContact () {
+      contact.css('display','none')
+    }
+    openBtn.on("click", openContact);
+    closeBtn.on('click',closeContact);
 });
+// $(() => {
+//   console.log('hello world');
+//   openContact.on("click", openContact);
+//   closeBtn.on('click',closeContact);
+//       // should be a window that pops up and text appear inside
+// })
