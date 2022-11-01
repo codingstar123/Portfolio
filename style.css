@@ -6,23 +6,36 @@
 }
 
 .mid {
-  background: lightblue;
+  background-image: url("pictures/sunsetbeach.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height:90vh;
   width:100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 5px;
 }
 
-/* .bot{
+.midbox {
+  background-color: rgba(241, 173, 30, 0.5);
+  border: 2px solid black;
+  border-radius: 25px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.bot{
   background:lightgrey;
   padding: 20px;
   display:flex;
   justify-content: space-around;
   margin-top: 5px;
-} */
+}
 
 #contact {
   background-color: rgba(0,0,0,0.5);
@@ -42,5 +55,6 @@
   width:550px;
   border-radius:2px;
   margin:150px auto;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.3)
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  padding: 10px;
 }
