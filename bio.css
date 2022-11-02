@@ -1,0 +1,55 @@
+.biotop {
+  display:flex;
+}
+.biomid {
+  display:flex;
+}
+.biobot {
+  display:flex;
+}
+
+.solid {
+  border-top:3px solid #bbb;
+  border-radius: 5px;
+}
+
+
+
+
+
+/* ============the const TOP & BOT============== */
+.top {
+  background: lightgrey;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.bot{
+  background:lightgrey;
+  padding: 20px;
+  display:flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+#contact {
+  background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  z-index: 1;
+  overflow:auto;
+  display:none;
+}
+
+#contact-textbox {
+  background: white;
+  height:350px;
+  width:550px;
+  border-radius:2px;
+  margin:150px auto;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  padding: 10px;
+}
