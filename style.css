@@ -1,12 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:visited {
+  color:black;
+  text-decoration: none;
+}
+
 .top {
-  background: lightgrey;
+  background: rgba(218, 243, 249, 0.47);
   padding: 20px;
   display: flex;
   justify-content: space-around;
 }
 
 .mid {
-  /* background-image: url("pictures/sunsetbeach.webp"); */
+  background-image: url("pictures/beach.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +29,7 @@
 }
 
 .midbox {
-  background-color: rgba(241, 173, 30, 0.5);
+  background-color: rgba(39, 245, 221, 0.2);
   border: 2px solid black;
   border-radius: 25px;
   display:flex;
@@ -31,7 +40,7 @@
 }
 
 .bot{
-  background:lightgrey;
+  background:rgba(218, 243, 249, 0.47);
   padding: 20px;
   display:flex;
   justify-content: space-around;
