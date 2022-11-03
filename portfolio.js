@@ -29,7 +29,7 @@ let currentImgIndex = 0;
     $('.carousel-images').children().eq(currentImgIndex)
       .css('display','block')
     })
-// Contact Button;
+
 $( () => {
 
     //======grabbing the buttons=======
