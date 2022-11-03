@@ -15,12 +15,11 @@ a:link, a:visited {
 }
 .resbot {
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 }
-/* #skills {
-  text-align: center;
+#skills {
   margin-bottom: 10px;
-} */
+}
 
 
 /* ============the const TOP & BOT============== */

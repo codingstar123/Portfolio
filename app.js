@@ -1,5 +1,13 @@
 $( () => {
 
+    //======another jquery to show my text=====https://www.w3schools.com/jquery/jquery_animate.asp
+    // $('button').click(function(){
+    //   $('.midbox').show();
+    $('button').click(function(){
+      $('.midbox').toggle(3000);
+
+    })
+
     //======grabbing the buttons=======
     const openBtn = $('#openContact');
     const contact = $('#contact');
