@@ -60,7 +60,7 @@ a:link, a:visited {
 }
 
 #contact-textbox {
-  background: white;
+  background-image: url('pictures/card2.jpeg');
   height:350px;
   width:550px;
   border-radius:2px;

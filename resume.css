@@ -36,6 +36,10 @@ a:link, a:visited {
   justify-content: space-around;
   margin-top: 5px;
 }
+
+.bot h1{
+  text-align: left;
+}
 /* ============the modal============== */
 #contact {
   background-color: rgba(0,0,0,0.5);
@@ -50,7 +54,7 @@ a:link, a:visited {
 }
 
 #contact-textbox {
-  background: white;
+  background-image: url('pictures/card2.jpeg');
   height:350px;
   width:550px;
   border-radius:2px;
